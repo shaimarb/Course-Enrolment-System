@@ -1,0 +1,56 @@
+/* src/styles/Login.css */
+
+/* Styling for the login container */
+.login-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    background-color: #f5f1f2;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the login header */
+  .login-header {
+    font-size: 2rem;
+    color: #966793;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Styling for form controls in the login form */
+  .login-form .form-control {
+    border-radius: 8px;
+    padding: 0.8rem;
+    border: 1px solid #cda0ba;
+  }
+  
+  /* Styling for the login button */
+  .login-form .login-btn {
+    width: 100%;
+    background-color: #966793;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form .login-btn:hover {
+    background-color: #cda0ba;
+  }
+  
+  /* Styling for form group spacing */
+  .login-form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Styling for alerts */
+  .alert {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Additional margin for form fields */
+  .login-form .form-group input {
+    margin-bottom: 1.2rem;
+  }
+  

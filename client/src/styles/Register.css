@@ -1,0 +1,51 @@
+/* src/styles/Register.css */
+
+
+.register-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    background-color: #f5f1f2;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-header {
+    font-size: 2rem;
+    color: #966793;
+    margin-bottom: 1.5rem;
+  }
+  
+  .register-form .form-control {
+    border-radius: 8px;
+    padding: 0.8rem;
+    border: 1px solid #cda0ba;
+  }
+  
+  .register-form .register-btn {
+    width: 100%;
+    background-color: #966793;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .register-form .register-btn:hover {
+    background-color: #cda0ba;
+  }
+  
+  .register-form .form-group {
+    margin-bottom: 1.5rem;  /* Increased spacing between fields */
+  }
+  
+  .alert {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Additional margin for form fields */
+  .register-form .form-group input {
+    margin-bottom: 1.2rem;
+  }
+  

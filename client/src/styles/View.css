@@ -1,0 +1,54 @@
+/* Generic container styling for list-based views */
+.view-container {
+    max-width: 900px;
+    margin: 3rem auto;
+    background-color: #f5f1f2;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Generic header styling for list-based views */
+  .view-header {
+    font-size: 2rem;
+    color: #966793;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Generic styling for tables */
+  .table-striped th,
+  .table-striped td {
+    border: 1px solid #cda0ba;
+  }
+  
+  .table-striped {
+    background-color: #f8f9fa;
+  }
+  
+  .table-striped tr:nth-child(even) {
+    background-color: #f5f1f2;
+  }
+  
+  /* Generic styling for list item text */
+  .list-item-text {
+    font-size: 1rem;
+    color: #495057;
+  }
+  
+  .list-item-text.no-items {
+    color: #b8a0d0;
+    font-style: italic;
+  }
+  
+  /* Loader styling */
+  .loading-text {
+    font-size: 1.2rem;
+    color: #cda0ba;
+    text-align: center;
+  }
+  
+  /* Spacing adjustments */
+  .mt-3 {
+    margin-top: 1rem;
+  }
+  
