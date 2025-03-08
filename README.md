@@ -30,7 +30,7 @@ Database: MongoDB with Mongoose
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/yourusername/Course-Enrolment-System.git
+git clone https://github.com/shaimarb/Course-Enrolment-System.git
 
 cd Course-Enrolment-System
 
